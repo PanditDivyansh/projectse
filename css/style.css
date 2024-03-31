@@ -1,0 +1,27 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+/* : #362FBB | #712275 | #F97698 | #FFB845 */
+#intro {
+    background: url("https://lh5.googleusercontent.com/proxy/tNIDi0mXxmwUuLpRzUyQfVJb69gNXWNGcdtvGVtFEqfZdZutACjOLxrtZqAYu7CYxa-urNq43WJ9cULT8azAIPZzhBoB1gjJ=w1200-h630-p-k-no-nu")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.top-nav-collapse {
+  background-color: #24355C;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
